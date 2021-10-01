@@ -8,3 +8,62 @@
     font-family: 'Karla', sans-serif;
 }
 
+body{
+    /* width: 1440px; */
+    background-color: burlywood;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* padding: 30px; */
+    box-shadow: 10px 10px 10px #ccc;
+    /* text-align: center; */
+}
+
+.container-box1{
+    width: 100%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container-box1 .title{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: hsl(179, 62%, 43%);
+}
+.container-box1 h3{
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: hsl(71, 73%, 54%);
+}
+.container-box1 p{
+    color: hsl(218, 22%, 67%);
+}
+
+.container-box2{
+    width: 100%;
+    height: 60%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container-box2 .caixa1{
+    width: 50%;
+    height: 100%;
+    /* background-color: burlywood; */
+    float: left;
+}
+
+.container-box2 .caixa2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(77, 60, 38); */
+    float: left;
+}
