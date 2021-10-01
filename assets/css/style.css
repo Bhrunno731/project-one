@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+/* RESET */
 *{
     padding: 0;
     margin: 0;
@@ -11,17 +12,17 @@
 body{
     background-color: #f0f0f0;
 }
-
+/* Contéudo Principal */
 .container{
     background-color: #f0f0f0;
     width: 45%;
     height: 500px;
     margin: auto;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
     box-shadow: 0 0 1em #ccc;
 }
-
+/* Primeira Div */
 .container-box1{
     width: 100%;
     height: 45%;
@@ -102,12 +103,21 @@ body{
     width: 200px; 
 }
 
-@media(max-width:1100px){
- body{
-
+/* FOOTER */
+.attribution {
+    font-size: 11px; 
+    text-align: center;
  }
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+ }
+
+/* RESPONSIVIDADE */
+@media(max-width:1023px){
  .container{
      width: 375px;
+     margin-top: 0;
  }
  .container-box1{
      width: 100%;
@@ -116,11 +126,11 @@ body{
  .container-box2 .caixa1{
     width: 100%;
     border-radius: 0px;
-}
+    
+ }
 .container-box2 .caixa2{
     width: 100%;
-    border-radius: 0;
-}
-
-
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
 }
