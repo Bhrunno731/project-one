@@ -11,6 +11,7 @@
 
 body{
     background-color: #f0f0f0;
+    height: 90vh;
 }
 /* Contéudo Principal */
 .container{
@@ -22,13 +23,14 @@ body{
     margin-top: 60px;
     box-shadow: 0 0 1em #ccc;
 }
-/* Primeira Div */
+/* Primeira Div Principal */
 .container-box1{
     width: 100%;
     height: 45%;
     padding: 30px;
     border-radius: 10px;
 }
+/* Titulo da Primeira Div */
 .container-box1 .title{
     font-size: 1.5em;
     margin-top: 10px;
@@ -44,11 +46,12 @@ body{
     color: hsl(218, 22%, 67%);
 }
 
+/* Segunda Div Principal */
 .container-box2{
     width: 100%;
     height: 55%;
 }
-
+/* Primeira Caixa da Segunda Div */
 .container-box2 .caixa1{
     width: 50%;
     height: 100%;
@@ -72,6 +75,7 @@ body{
     margin-bottom: 30px;
     color: hsl(203, 12%, 79%);
 }
+/* Botão Sing Up */
 .caixa1 .enviar{
     width: 100%;
     height: 45px;
@@ -79,10 +83,11 @@ body{
     border-radius: 5px;
     border: none;
     background-color: hsl(71, 73%, 54%);
-    color: rgb(255, 255, 255);
+    color: #FFF;
     cursor: pointer;
 }
 
+/* Segunda Caixa da Segunda Div */
 .container-box2 .caixa2{
     width: 50%;
     height: 100%;
@@ -96,6 +101,7 @@ body{
     font-size: 1em;
     margin-top: 20px;
     margin-bottom: 15px;
+    color: white;
 }
 .caixa2 .sub-caixa2{
     margin-top: 20px;
@@ -113,7 +119,7 @@ body{
     color: hsl(228, 45%, 44%);
  }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVIDADE ADAPTATIVA*/
 @media(max-width:1023px){
  .container{
      width: 375px;
