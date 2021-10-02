@@ -15,7 +15,7 @@ body{
 }
 /* Contéudo Principal */
 .container{
-    background-color: #f0f0f0;
+    background-color: #FFF;
     width: 45%;
     height: 500px;
     margin: auto;
@@ -24,35 +24,36 @@ body{
     box-shadow: 0 0 1em #ccc;
 }
 /* Primeira Div Principal */
-.container-box1{
+.container-box-first{
+    background-color: #FFF;
     width: 100%;
     height: 45%;
     padding: 30px;
     border-radius: 10px;
 }
 /* Titulo da Primeira Div */
-.container-box1 .title{
+.container-box-first .title{
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 1em;
     color: hsl(179, 62%, 43%);
 }
-.container-box1 h3{
+.container-box-first h2{
     font-size: 1em;
     margin-bottom: 1em;
     color: hsl(71, 73%, 54%);
 }
-.container-box1 p{
+.container-box-first p{
     color: hsl(218, 22%, 67%);
 }
 
 /* Segunda Div Principal */
-.container-box2{
+.container-box-second{
     width: 100%;
     height: 55%;
 }
 /* Primeira Caixa da Segunda Div */
-.container-box2 .caixa1{
+.container-box-second .caixa1{
     width: 50%;
     height: 100%;
     padding: 30px;
@@ -63,7 +64,7 @@ body{
 }
 .caixa1 h3{
     font-size: 1em;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 .caixa1 .dolar{
@@ -85,10 +86,16 @@ body{
     background-color: hsl(71, 73%, 54%);
     color: #FFF;
     cursor: pointer;
+    /* box-shadow: 0 0 0.2em hsl(71, 73%, 54%); */
+   
+}
+.enviar:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 /* Segunda Caixa da Segunda Div */
-.container-box2 .caixa2{
+.container-box-second .caixa2{
     width: 50%;
     height: 100%;
     padding: 30px;
@@ -99,7 +106,7 @@ body{
 }
 .caixa2 h3{
     font-size: 1em;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 15px;
     color: white;
 }
@@ -125,18 +132,22 @@ body{
      width: 375px;
      margin-top: 0;
  }
- .container-box1{
+ .container-box-first{
      width: 100%;
      margin-bottom: 30px;
  }
- .container-box2 .caixa1{
+ .container-box-second .caixa1{
     width: 100%;
     border-radius: 0px;
     
  }
-.container-box2 .caixa2{
+.container-box-second .caixa2{
     width: 100%;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+ }
+ footer{
+     width: 375px;
+     margin: auto;
  }
 }
